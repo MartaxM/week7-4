@@ -1,0 +1,25 @@
+{
+  "name": "week7",
+  "version": "1.0.0",
+  "description": "week 7 assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc-watch --noClear -p ./tsconfig.json",
+    "ndmon": "nodemon ./dist/index.js --ignore node_modules",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.17",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^4.9.4"
+  }
+}
